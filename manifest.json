@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Zen TabStack",
+  "version": "1.0.0",
+  "description": "Reorders tabs as a MRU stack — most recently used tab always appears first in the sidebar.",
+  "applications": {
+    "gecko": {
+      "id": "zen-tabstack@local",
+      "strict_min_version": "91.0"
+    }
+  },
+  "permissions": ["tabs"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  }
+}
